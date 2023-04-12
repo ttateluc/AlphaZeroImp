@@ -57,7 +57,3 @@ This implementation differs from Deepmind's explanations in (at least) these poi
 - [ ] Parallelize MCTS and perform evaluation in batch
 - [x] Add time limit instead of iteration limit when using MCTS for testing <--Set in the MCTS class, not called from the main file for now
 - [ ] Save memory buffer when the training process is stopped
-
-## License
-
-GNU AGPLv3
