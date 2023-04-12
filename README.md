@@ -1,5 +1,8 @@
 # AlphaZeroImp: A Caffe/C++ implementation of [Deepmind's AlphaZero Algorithm used to learn Go, Chess and Shogi](https://arxiv.org/abs/1712.01815)
 
+![DALL·E 2023-04-12 16 16 14 - draw alphazero playing go, digital art_](https://user-images.githubusercontent.com/97220909/231603565-d8aeabd6-efe3-408f-bbdb-6f45a4af4e0a.png)
+
+
 This is my implementation of AlphaZero algorithm with Caffe. I tried to follow as much as possible the paper. Differences with my code are listed in section [Differences](#diff).
 The core algorithm is templated and separated from the specific game rules (AlphaZero folder), so this code could theoretically be trained on any game (like Go or Chess). However, as I am far from having enough computing power, only two simple games are implemented as examples: Tic Tac Toe and Connect Four, both with variable size boards.
 
